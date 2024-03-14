@@ -17,6 +17,7 @@ const Home = () => {
       });
   }, []);
 
+  
   return (
     <div className='jokes-container'>
       <h1>Jokes</h1>

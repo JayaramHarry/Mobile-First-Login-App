@@ -28,8 +28,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (username === dummyCredentials.username && password === dummyCredentials.password) {
-      navigate('/home');
-      
+      navigate('/home');  
     } else {
       if (username !== dummyCredentials.username) {
         setUsernameError('Incorrect username');
