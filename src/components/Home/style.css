@@ -1,0 +1,32 @@
+.jokes-container{
+    text-align: center;
+    background-color: #cdcdcd;
+    min-height: 100vh;
+    padding: 40px;
+}
+h1{
+    font-family:fantasy;
+}
+thead tr{
+    height: 60px;
+    
+}
+th{
+    text-align: center;
+    font-size: 25px;
+}
+td{
+    font-size: 20px;
+    
+}
+tr{
+    height: 85px;
+}
+tbody tr td:nth-child(3){
+    width: 60%;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start !important;
+    padding: 20px !important;
+    
+}
